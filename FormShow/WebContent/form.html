@@ -1,0 +1,36 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Form Sayfası</title>
+</head>
+<body style = "background-color:"blue"; margin-top:50px;margin-left: 5in;">
+<h1>Bilgilerinizi Giriniz</h1>
+<form action="Form_show" method="get"> 
+	<h3>ADINIZ: </h3>
+	<input type="text" name="isim"  size="40px"><br>
+
+	<h3>SOYADINIZ:</h3>
+	<input type="text" name="soyad"  size="40px"><br>
+
+	<h3>CİNSİYET</h3>
+	<input type="radio" name= "check" value = "BAY"> BAY   
+	<input type="radio" name= "check" value = "BAYAN"> BAYAN
+
+	<h3>MESLEĞİNİZ</h3>
+	<select style="width: 150px;" name="meslek">
+		<option> seçiniz </option> 
+		<option> Mühendis </option> 
+		<option> Memur </option> 
+		<option> Öğretmen </option> 
+		<option> Diş Hekimi  </option> 
+	</select>
+
+	<h3>MESAJINIZ</h3>
+	<textarea rows="10" cols="40" name="mesaj"> </textarea><br><br>
+
+	<input type="submit" value="GÖNDER">
+
+</form>
+</body>
+</html>
